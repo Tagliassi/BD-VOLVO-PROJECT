@@ -1,0 +1,60 @@
+CREATE TABLE Cliente 
+( 
+  Id_cliente INT PRIMARY KEY,  
+  Nome VARCHAR(255),  
+  CEP VARCHAR(10),    
+  Rua VARCHAR(255),   
+  Status INT,  
+  Limite_credito INT  
+); 
+
+CREATE TABLE Pedido 
+( 
+  Id_pedido INT PRIMARY KEY,  
+  Data_elaboracao DATE  
+); 
+
+CREATE TABLE Telefone 
+( 
+  Id_telefone INT PRIMARY KEY,  
+  Numero_telefone VARCHAR(20)  
+); 
+
+CREATE TABLE Categoria
+(
+    Id_categoria INT PRIMARY KEY,
+    Nome_categoria VARCHAR(255)
+);
+
+CREATE TABLE Produto_Categoria 
+( 
+  Id_produto INT,  
+  Nome_produto VARCHAR(255),  
+  Preco DECIMAL(10, 2),       
+  Id_categoria INT,
+  Nome_categoria VARCHAR(255),  
+  PRIMARY KEY (Id_produto, Id_categoria),
+  FOREIGN KEY (Id_categoria) REFERENCES Categoria(Id_categoria)
+);
+
+
+CREATE TABLE POSSUI 
+( 
+  Id_pedido INT,  
+  Id_telefone INT,  
+  Id_cliente INT,  
+  PRIMARY KEY (Id_pedido, Id_telefone, Id_cliente),
+  FOREIGN KEY (Id_pedido) REFERENCES Pedido(Id_pedido),
+  FOREIGN KEY (Id_telefone) REFERENCES Telefone(Id_telefone),
+  FOREIGN KEY (Id_cliente) REFERENCES Cliente(Id_cliente)
+); 
+
+CREATE TABLE Contem 
+( 
+  Id_pedido INT,  
+  Id_produto INT,
+  Quantidade INT,  
+  PRIMARY KEY (Id_pedido, Id_produto),
+  FOREIGN KEY (Id_pedido) REFERENCES Pedido(Id_pedido),
+  FOREIGN KEY (Id_produto) REFERENCES Produto_Categoria(Id_produto)
+);

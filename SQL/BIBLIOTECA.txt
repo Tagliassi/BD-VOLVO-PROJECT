@@ -1,0 +1,30 @@
+CREATE TABLE Livro 
+( 
+ ISBN INT PRIMARY KEY,  
+ Titulo VARCHAR(100),  
+ Ano INT,  
+ Editora  VARCHAR(100),  
+ idCategoria INT,  
+ FOREIGN KEY (idCategoria) REFERENCES Categoria (Id_categoria)
+); 
+
+CREATE TABLE Autor 
+( 
+ Nome  VARCHAR(100),  
+ Nacionalidade  VARCHAR(100),  
+ Id_autor INT PRIMARY KEY,  
+); 
+
+CREATE TABLE Categoria 
+( 
+ Id_categoria INT PRIMARY KEY,  
+ Descricao  VARCHAR(100),  
+); 
+
+CREATE TABLE POSSUI 
+( 
+ Id_Tb_possui INT PRIMARY KEY  
+); 
+
+ALTER TABLE POSSUI ADD FOREIGN KEY(Id_autor) REFERENCES Autor (Id_autor);
+ALTER TABLE POSSUI ADD FOREIGN KEY(ISBN) REFERENCES Livro (ISBN);
