@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WYNpL9TloCGrUrn5x5Tpxp7k3CoUpDQZ7JSwaiSsMB2L0DdfmlCRXHhsN1a3aicme2fQZYJtBYGW6cWed2ksLg==",
+  "dgSpecHash": "iS2Zot/87hj74e50bq+Mw4Kh6v6zTccqZ5idD2FLGjg1sN6UpsGmQRFX/oIHrnKrlHkrTIB/CSc/FBW2IDdrLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Play\\Desktop\\BD-VOLVO\\BD-VOLVO.csproj",
+  "projectFilePath": "C:\\Users\\Play\\OneDrive - Grupo Marista\\BD-VOLVO-PROJECT\\BD-VOLVO\\BD-VOLVO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Play\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Play\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

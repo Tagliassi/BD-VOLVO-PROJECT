@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Play\\Desktop\\BD-VOLVO\\BD-VOLVO.csproj": {}
+    "C:\\Users\\Play\\OneDrive - Grupo Marista\\BD-VOLVO-PROJECT\\BD-VOLVO\\BD-VOLVO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Play\\Desktop\\BD-VOLVO\\BD-VOLVO.csproj": {
+    "C:\\Users\\Play\\OneDrive - Grupo Marista\\BD-VOLVO-PROJECT\\BD-VOLVO\\BD-VOLVO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Play\\Desktop\\BD-VOLVO\\BD-VOLVO.csproj",
+        "projectUniqueName": "C:\\Users\\Play\\OneDrive - Grupo Marista\\BD-VOLVO-PROJECT\\BD-VOLVO\\BD-VOLVO.csproj",
         "projectName": "BD-VOLVO",
-        "projectPath": "C:\\Users\\Play\\Desktop\\BD-VOLVO\\BD-VOLVO.csproj",
+        "projectPath": "C:\\Users\\Play\\OneDrive - Grupo Marista\\BD-VOLVO-PROJECT\\BD-VOLVO\\BD-VOLVO.csproj",
         "packagesPath": "C:\\Users\\Play\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Play\\Desktop\\BD-VOLVO\\obj\\",
+        "outputPath": "C:\\Users\\Play\\OneDrive - Grupo Marista\\BD-VOLVO-PROJECT\\BD-VOLVO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Play\\AppData\\Roaming\\NuGet\\NuGet.Config"
